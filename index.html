@@ -64,30 +64,31 @@
             color: #ccc;
         }
         .mayb1 {
-  font-family: 'Arial', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  background: linear-gradient(to right, #ff6b6b, #1dd1a1, #54a0ff);
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: colorChange 5s infinite;
-  background-size: 200% 100%;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
-}
+              font-family: 'Arial', sans-serif;
+              font-size: 1.2rem;
+              font-weight: bold;
+              text-align: center;
+              background: linear-gradient(to right, #ff6b6b, #1dd1a1, #54a0ff);
+              -webkit-background-clip: text;
+              color: transparent;
+              animation: colorChange 5s infinite;
+              background-size: 200% 100%;
+              text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+              margin: 20px 0;
+            }
+            
+            @keyframes colorChange {
+              0% {
+                background-position: 0% 0%;
+              }
+              50% {
+                background-position: 100% 0%;
+              }
+              100% {
+                background-position: 0% 0%;
+              }
+            }
 
-@keyframes colorChange {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
 
 
 
